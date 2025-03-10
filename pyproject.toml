@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "JhuiPyUtils"
+# version = "0.0.1"
+description = "Python工具库"
+authors = ["jiangbo <lijb@jinhuicapital.com>"]
+
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "PyUtils/_version.py"
+version_scheme = "post-release"
+local_scheme = "no-local-version"
+
+[tool.poetry.include]
+files = ["PyUtils/config.yaml"]
+
+[tool.poetry.package]
+include = ["PyUtils/config.yaml"]

@@ -1,0 +1,22 @@
+stages:
+  - setup
+  - install
+  - deploy
+
+
+setup:
+  stage: setup
+  script:
+    - pwd
+
+install:
+  stage: install
+  script:
+    - pwd
+
+
+
+deploy:
+  stage: deploy
+  script:
+    - pwd

@@ -1,0 +1,4 @@
+SQLAlchemy==2.0.34
+PyMySQL==1.0.2
+PyYAML==6.0
+smbprotocol==1.15.0

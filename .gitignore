@@ -1,0 +1,14 @@
+__pycache__
+
+*.egg-info
+build
+
+.vscode
+
+dist
+
+PyUtils/_version.py
+
+.eggs
+
+/tests
