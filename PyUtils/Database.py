@@ -112,8 +112,8 @@ def choose_database(database: str) -> Client:
     click_client = Client(
         host="192.168.1.91",
         port="9000",
-        user="jhch_read",
-        password="Jhzb2024Read",
+        user="uer",
+        password="your_password",
         database=database,
     )
     return click_client, database
