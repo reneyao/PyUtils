@@ -4,9 +4,9 @@
 ## 使用工具库
   1、将工具库引入项目或环境中
 
-    pip install jhuipyutils
+    pip install renepyutils
 
-    升级 pip install --upgrade jhuipyutils
+    升级 pip install --upgrade renepyutils
 
   2、使用
 

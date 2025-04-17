@@ -1,8 +1,7 @@
 [tool.poetry]
-name = "JhuiPyUtils"
+name = "renePyUtils"
 # version = "0.0.1"
 description = "Python工具库"
-authors = ["jiangbo <lijb@jinhuicapital.com>"]
 
 
 [build-system]
